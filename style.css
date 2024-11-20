@@ -1,0 +1,76 @@
+.header{
+    display: flex;
+    background-color: rgb(40, 35, 35);
+    height: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+ul,li{
+    display: flex;
+    color: white;
+    align-items: center;
+    list-style: none;
+    font-size: 23px;
+    column-gap: 50px;
+    text-decoration: none;
+
+}
+.first{
+    background-image: url(cofe.jpg);
+    height: 600px;
+    background-size: cover;
+}
+#first_img{
+    display: flexs;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    padding-left: 600px;
+}
+#shop:hover{
+    background-color: rgb(255, 0, 0);
+}
+#shop{
+    padding: 10px;
+}
+
+.third{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 80px;
+}
+p{
+    font-size: 13px;
+    align-items: center;
+    padding-right: 80px;
+}
+
+.fourth{
+    background-image: url(paper.png);
+    height: 600px;
+    background-size: cover;
+    padding-top: 100px;
+    
+}
+
+#fourth2{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 80px;
+    padding-right: 40px;
+
+}
+
+.fourth3{
+    display: flex;
+    justify-content: space-around; 
+}
+
+.fifth{
+    background-image: url(cho.jpg);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
